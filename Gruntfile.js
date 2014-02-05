@@ -349,7 +349,7 @@ module.exports = function (grunt) {
         dest: '.tmp/docs',
         html5Mode: false
       },
-      api: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
+      api: ['<%= yeoman.app %>/scripts/{,*/}*.js', 'index.ngdoc'],
     }
   });
 
